@@ -1,14 +1,17 @@
 import React from "react";
-import "./ProductCard.css";
+import styles from "./ProductCard.module.css";
 
 export default function ProductCard(props) {
-  //   console.log("PROPS:", props);
   return (
-    <div className={`card card--${props.color}`}>
-      <img src={props.icon} className="card__icon" />
-      <h2 className="card__title">{props.title}</h2>
-      <p className="card__description">{props.description}</p>
-      <button className={`card__button-cta card__button-cta--${props.color}`}>
+    <div className={`${styles["card"]} ${styles[`card--${props.color}`]} `}>
+      <img src={props.icon} className={styles["card__icon"]} />
+      <h2 className={styles["card__title"]}>{props.title}</h2>
+      <p className={styles["card__description"]}>{props.description}</p>
+      <button
+        className={`${styles["card__button-cta"]} ${
+          styles[`card__button-cta--${props.color}`]
+        }`}
+      >
         Learn More
       </button>
     </div>
