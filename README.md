@@ -4,7 +4,7 @@
 - We make a component reusable by using props
 - We migrate styles to CSS modules so the selectors don't clash and a component has a dedicated CSS file
 
-## Videos (Dutch):
+## Videos (Dutch)
 
 - [A brief history of React (youtube, English)](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [React, y tho? from server rendering to SPA](https://share.getcloudapp.com/04uLyvAQ)
@@ -13,8 +13,11 @@
 - [Setting up a React app with create-react-app, making a component, props, JSX](https://share.getcloudapp.com/geudOQl1)
 - [Finalise ProductCard, Convert styles to css modules](https://share.getcloudapp.com/GGuEJgQQ)
 
+## Whimsical drawing
 
-## Git history;
+- [Here it is](https://whimsical.com/react-y-though-DLbhm5Ydbvfatk52E1c2KX)
+
+## Git history
 
 - [The changes to product card](https://github.githistory.xyz/Reinoptland/components-props-example/blob/main/src/components/ProductCard.js)
 - [The changes in App.js](https://github.githistory.xyz/Reinoptland/components-props-example/blob/main/src/App.js)
